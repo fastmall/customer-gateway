@@ -3,6 +3,7 @@ package controller
 import (
 	"context"
 	"dubbo.apache.org/dubbo-go/v3/common/logger"
+	"fmt"
 	"github.com/fastmall/customer-gateway/dubbo"
 	"github.com/fastmall/customer/api"
 	"github.com/gin-gonic/gin"
@@ -22,6 +23,8 @@ func Register(c *gin.Context) {
 		return
 	}
 
-	logger.Info(createCustomerResponse.UserId)
-	c.String(200, "customerId:%d", createCustomerResponse.UserId)
+	msg := fmt.Sprintf("customerId:%d, token:%s", createCustomerResponse.CustomerId, createCustomerResponse.Token)
+
+	logger.Info(msg)
+	c.String(200, msg)
 }
