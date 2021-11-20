@@ -4,7 +4,7 @@ go 1.17
 
 require (
 	dubbo.apache.org/dubbo-go/v3 v3.0.0-rc4-1
-	github.com/fastmall/customer v0.0.0-20211120153119-a86f578ddc21
+	github.com/fastmall/customer v0.0.0-20211120175114-b82d5f8568c3
 	github.com/gin-gonic/gin v1.7.4
 )
 

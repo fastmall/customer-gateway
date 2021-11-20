@@ -212,6 +212,8 @@ github.com/fastly/go-utils v0.0.0-20180712184237-d95a45783239 h1:Ghm4eQYC0nEPnSJ
 github.com/fastly/go-utils v0.0.0-20180712184237-d95a45783239/go.mod h1:Gdwt2ce0yfBxPvZrHkprdPPTTS3N5rwmLE8T22KBXlw=
 github.com/fastmall/customer v0.0.0-20211120153119-a86f578ddc21 h1:oheZVXkvEv3Nt/QHjuMaL4+48JQm194+QBAOx9DTMAU=
 github.com/fastmall/customer v0.0.0-20211120153119-a86f578ddc21/go.mod h1:sXJ0Bsogp2B6/1TWhm6SPFrcg1mIG7CjbHfT9D2z6es=
+github.com/fastmall/customer v0.0.0-20211120175114-b82d5f8568c3 h1:+ojfksX9hnSpyUcBfBrw85APgNG5koZBjUtUGKaQcSA=
+github.com/fastmall/customer v0.0.0-20211120175114-b82d5f8568c3/go.mod h1:sXJ0Bsogp2B6/1TWhm6SPFrcg1mIG7CjbHfT9D2z6es=
 github.com/fatih/color v1.7.0/go.mod h1:Zm6kSWBoL9eyXnKyktHP6abPY2pDugNf5KwzbycvMj4=
 github.com/fatih/structs v1.1.0/go.mod h1:9NiDSp5zOcgEDl+j00MP/WkGVPOlPRLejGD8Ga6PJ7M=
 github.com/form3tech-oss/jwt-go v3.2.2+incompatible h1:TcekIExNqud5crz4xD2pavyTgWiPvpYe4Xau31I0PRk=
