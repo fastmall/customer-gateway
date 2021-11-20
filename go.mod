@@ -4,7 +4,7 @@ go 1.17
 
 require (
 	dubbo.apache.org/dubbo-go/v3 v3.0.0-rc4-1
-	github.com/fastmall/customer v0.0.0-20211120175114-b82d5f8568c3
+	github.com/fastmall/customer/api v0.0.2
 	github.com/gin-gonic/gin v1.7.4
 )
 
@@ -28,8 +28,8 @@ require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/dubbogo/go-zookeeper v1.0.3 // indirect
 	github.com/dubbogo/gost v1.11.19 // indirect
-	github.com/dubbogo/grpc-go v1.42.5-triple // indirect
-	github.com/dubbogo/triple v1.1.3 // indirect
+	github.com/dubbogo/grpc-go v1.42.6-triple // indirect
+	github.com/dubbogo/triple v1.1.5 // indirect
 	github.com/emicklei/go-restful/v3 v3.7.1 // indirect
 	github.com/fsnotify/fsnotify v1.5.1 // indirect
 	github.com/ghodss/yaml v1.0.0 // indirect
@@ -94,6 +94,8 @@ require (
 	github.com/spf13/viper v1.7.1 // indirect
 	github.com/subosito/gotenv v1.2.0 // indirect
 	github.com/toolkits/concurrent v0.0.0-20150624120057-a4371d70e3e3 // indirect
+	github.com/uber/jaeger-client-go v2.29.1+incompatible // indirect
+	github.com/uber/jaeger-lib v2.4.1+incompatible // indirect
 	github.com/ugorji/go/codec v1.2.6 // indirect
 	github.com/zouyx/agollo/v3 v3.4.5 // indirect
 	go.etcd.io/etcd/api/v3 v3.5.1 // indirect
