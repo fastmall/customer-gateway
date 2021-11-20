@@ -23,4 +23,5 @@ func Register(c *gin.Context) {
 	}
 
 	logger.Info(createCustomerResponse.UserId)
+	c.String(200, "customerId:%d", createCustomerResponse.UserId)
 }
