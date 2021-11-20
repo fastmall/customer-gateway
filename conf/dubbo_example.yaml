@@ -1,0 +1,10 @@
+dubbo:
+  registries:
+    etcd:
+      protocol: etcdv3
+      address: xxx:2379
+  consumer:
+    references:
+      CustomerServiceClientImpl:
+        protocol: tri
+        interface: com.jeongen.fastmall.customer.CustomerService
