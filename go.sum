@@ -217,6 +217,8 @@ github.com/fastly/go-utils v0.0.0-20180712184237-d95a45783239 h1:Ghm4eQYC0nEPnSJ
 github.com/fastly/go-utils v0.0.0-20180712184237-d95a45783239/go.mod h1:Gdwt2ce0yfBxPvZrHkprdPPTTS3N5rwmLE8T22KBXlw=
 github.com/fastmall/customer/api v0.0.2 h1:0+INdLQ7Fi34mk6GKXOus08hsCYQd0mlqXikO1gDmQY=
 github.com/fastmall/customer/api v0.0.2/go.mod h1:3T6Hld4SAI6oNc0D5Ge/sBHrgp+4kmR+bEMD2GEFs8I=
+github.com/fastmall/customer/api v0.0.3-0.20211120183151-db6d9c55cd50 h1:5wczwxEX8Sc9h66BBBUH4BKH9z7OeZMcLR1PAxUcC+I=
+github.com/fastmall/customer/api v0.0.3-0.20211120183151-db6d9c55cd50/go.mod h1:3T6Hld4SAI6oNc0D5Ge/sBHrgp+4kmR+bEMD2GEFs8I=
 github.com/fatih/color v1.7.0/go.mod h1:Zm6kSWBoL9eyXnKyktHP6abPY2pDugNf5KwzbycvMj4=
 github.com/fatih/structs v1.1.0/go.mod h1:9NiDSp5zOcgEDl+j00MP/WkGVPOlPRLejGD8Ga6PJ7M=
 github.com/fogleman/gg v1.2.1-0.20190220221249-0403632d5b90/go.mod h1:R/bRT+9gY/C5z7JzPU0zXsXHKM4/ayA+zqcVNZzPa1k=
