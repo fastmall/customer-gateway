@@ -16,3 +16,13 @@ func SetGoodsRoute(r *gin.Engine) {
 	g := r.Group("/goods")
 	g.GET("/detail", controller.GetGoodsDetail)
 }
+
+func SetOrderRoute(r *gin.Engine) {
+	g := r.Group("/order")
+	g.GET("/detail", controller.GetOrderDetail)
+}
+
+func SetCartRoute(r *gin.Engine) {
+	g := r.Group("/cart")
+	g.GET("/detail", controller.GetCartDetail)
+}

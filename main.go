@@ -23,6 +23,8 @@ func startHttp() {
 	r := gin.Default()
 	route.SetCustomerRoute(r)
 	route.SetGoodsRoute(r)
+	route.SetCartRoute(r)
+	route.SetOrderRoute(r)
 	err := r.Run(":80")
 	if err != nil {
 		logger.Fatal(err)
