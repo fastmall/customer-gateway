@@ -5,8 +5,10 @@ go 1.17
 require (
 	dubbo.apache.org/dubbo-go/v3 v3.0.0-rc4-1
 	github.com/dubbogo/triple v1.1.5
+	github.com/fastmall/cart/api v0.0.0-20211121121733-6f1766d0b2d0
 	github.com/fastmall/customer/api v0.0.3-0.20211120184626-6d4495793f16
 	github.com/fastmall/goods/api v0.0.0-20211121092524-feee7221c5a6
+	github.com/fastmall/order/api v0.0.0-20211121121724-2c73479b06bf
 	github.com/gin-gonic/gin v1.7.4
 )
 
@@ -32,8 +34,6 @@ require (
 	github.com/dubbogo/gost v1.11.19 // indirect
 	github.com/dubbogo/grpc-go v1.42.6-triple // indirect
 	github.com/emicklei/go-restful/v3 v3.7.1 // indirect
-	github.com/fastmall/cart/api v0.0.0-20211121121733-6f1766d0b2d0 // indirect
-	github.com/fastmall/order/api v0.0.0-20211121121724-2c73479b06bf // indirect
 	github.com/fsnotify/fsnotify v1.5.1 // indirect
 	github.com/ghodss/yaml v1.0.0 // indirect
 	github.com/gin-contrib/sse v0.1.0 // indirect
