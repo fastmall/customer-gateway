@@ -3,6 +3,8 @@ package dubbo
 import (
 	"dubbo.apache.org/dubbo-go/v3/common/logger"
 	"dubbo.apache.org/dubbo-go/v3/config"
+	_ "dubbo.apache.org/dubbo-go/v3/imports"
+	_ "github.com/dubbogo/triple/pkg/triple"
 	customerApi "github.com/fastmall/customer/api"
 	goodsApi "github.com/fastmall/goods/api"
 )
