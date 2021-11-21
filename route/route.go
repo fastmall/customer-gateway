@@ -11,3 +11,8 @@ func SetCustomerRoute(r *gin.Engine) {
 	g.POST("/register", controller.Register)
 	g.GET("/register", controller.Register)
 }
+
+func SetGoodsRoute(r *gin.Engine) {
+	g := r.Group("/goods")
+	g.GET("/detail", controller.GetGoodsDetail)
+}
