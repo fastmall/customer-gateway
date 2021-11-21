@@ -7,6 +7,8 @@ import (
 	"strconv"
 )
 
+var goodsService = dubbo.GoodsService
+
 func GetGoodsDetail(c *gin.Context) {
 	idStr := c.Query("id")
 	id, err := strconv.ParseInt(idStr, 10, 64)
@@ -14,7 +16,7 @@ func GetGoodsDetail(c *gin.Context) {
 		c.String(500, err.Error())
 		return
 	}
-	detail, err := dubbo.GoodsService.GetItemDetail(c, &api.GetItemDetailRequest{ItemId: id})
+	detail, err := goodsService.GetItemDetail(c, &api.GetItemDetailRequest{ItemId: id})
 	if err != nil {
 		c.String(500, err.Error())
 		return

@@ -68,6 +68,6 @@ steps:
         - docker login --username=${username} -p ${password} registry.cn-hongkong.aliyuncs.com
         - echo "pulling image"
         - docker-compose pull -q customer-gateway
-        - docker-compose -s -f customer-gateway && docker-compose up -d customer-gateway
+        - docker-compose rm -s -f customer-gateway && docker-compose up -d customer-gateway
         - sleep 5
         - docker-compose logs --tail=200
