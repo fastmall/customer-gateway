@@ -19,7 +19,7 @@ func GetOrderDetail(c *gin.Context) {
 	}
 	orderDetail, err := orderService.GetOrderDetail(c, &api.GetOrderDetailRequest{OrderId: orderId})
 	if err != nil {
-		logger.Fatal(err)
+		logger.Error(err)
 		c.String(500, err.Error())
 		return
 	}
