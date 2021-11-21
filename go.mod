@@ -32,6 +32,8 @@ require (
 	github.com/dubbogo/gost v1.11.19 // indirect
 	github.com/dubbogo/grpc-go v1.42.6-triple // indirect
 	github.com/emicklei/go-restful/v3 v3.7.1 // indirect
+	github.com/fastmall/cart/api v0.0.0-20211121121733-6f1766d0b2d0 // indirect
+	github.com/fastmall/order/api v0.0.0-20211121121724-2c73479b06bf // indirect
 	github.com/fsnotify/fsnotify v1.5.1 // indirect
 	github.com/ghodss/yaml v1.0.0 // indirect
 	github.com/gin-contrib/sse v0.1.0 // indirect
